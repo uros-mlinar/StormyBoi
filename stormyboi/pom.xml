@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>narkomancer</groupId>
+	<artifactId>stormyboi</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>stormyboi Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<repositories>
+		<repository>
+			<id>jcenter</id>
+			<name>jcenter-bintray</name>
+			<url>https://jcenter.bintray.com</url>
+		</repository>
+	</repositories>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<!-- jsoup HTML parser library @ https://jsoup.org/ -->
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.13.1</version>
+		</dependency>
+		<!-- Java Discord Api -->
+		<dependency>
+			<groupId>net.dv8tion</groupId>
+			<artifactId>JDA</artifactId>
+			<version>3.8.3_464</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<finalName>stormyboi</finalName>
+	</build>
+</project>
+
+
